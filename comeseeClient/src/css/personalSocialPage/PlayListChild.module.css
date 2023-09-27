@@ -1,0 +1,47 @@
+.movieList {
+  /* display: flex; */
+  position: relative;
+  height: 208px;
+  width: 200px;
+}
+
+.movie {
+  width: 140px;
+  height: 208px;
+  background: #585858;
+  border-radius: 20px;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0px;
+}
+.movie:nth-child(1) {
+  z-index: 3;
+  /* position: relative; */
+  /* position: absolute; */
+  /* top: 0px; */
+}
+
+.movie:nth-child(2) {
+  left: 20px;
+  z-index: 2;
+  /* position: absolute; */
+  /* top: 0px; */
+}
+
+.movie:nth-child(3) {
+  left: 40px;
+  z-index: 1;
+  /* position: absolute; */
+  /* top: 0px; */
+}
+
+.movie:nth-child(4) {
+  left: 60px;
+  z-index: 0;
+  /* position: absolute; */
+  /* top: 0px; */
+}
+
+.movieImg {
+  border-radius: 20px;
+}

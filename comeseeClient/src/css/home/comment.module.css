@@ -1,0 +1,156 @@
+/* comment */
+
+/* 登入提醒 */
+.login {
+    margin-bottom: 35px;
+    text-align: center;
+
+    color: #f1efe9;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+/* 自己評論flex */
+.selfBox {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+/* 頭貼 */
+.user {
+    width: 65px;
+    height: 65px;
+    border-radius: 40px;
+    border: #424242 1px solid;
+}
+
+/* 留言input */
+.text {
+    width: 750px;
+    height: 90px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+/* 送出按鈕 */
+.scb {
+    width: 90px;
+    height: 90px;
+    align-self: flex-end;
+
+    border: none;
+    border-radius: 15px;
+    background-color: #8C8C83;
+
+
+    color: #F1EFE9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.scb:hover {
+    color: #8C8C83;
+    border: none;
+    background-color: #F1EFE9;
+}
+
+/* 他人評論區 */
+
+/* 排序按鈕flex */
+.sortBar {
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 15px;
+    margin-top: 60px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #a6a79b;
+}
+
+
+/* 他人評論flex */
+.ocb {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #a6a79b;
+}
+
+/* 評論內容div */
+.tb {
+    width: 700px;
+    word-wrap: break-word;
+}
+
+/* 暱稱 */
+.name {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+/* 評論文字 */
+.comm {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* 互動區 */
+
+/* flex */
+.ia {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+/* 互動按鈕 */
+.cmbn {
+    font-family: "Lucida Sans";
+    color: #f1efe9;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* 互動數 */
+.number {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* 評論日期 */
+.date {
+    text-align: end;
+    padding-top: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.loginbtn {
+    border: transparent;
+    background-color: transparent;
+    color: #F1EFE9;
+}
+
+.loginbtn:hover {
+    border: transparent;
+    background-color: transparent;
+    color: #F1EFE9;
+    font-weight: 550;
+}

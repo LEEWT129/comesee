@@ -1,0 +1,22 @@
+.h1 {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.p {
+  margin-left: 44px;
+  margin-bottom: 17px;
+  font-weight: 400;
+}
+
+.h4 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.ul,
+.ol {
+  margin-left: 30px;
+  margin-bottom: 17px;
+}

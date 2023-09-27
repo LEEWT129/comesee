@@ -1,0 +1,314 @@
+.mainbg {
+  background-color: #000;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+
+/* hero */
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 110px;
+
+  background-color: #2f2f2f;
+  height: 263px;
+  padding: 10px 30px;
+  border-radius: 15px;
+
+  align-items: center;
+  gap: 61px;
+}
+
+.img {
+  /* background-image: url(/img/Ellipse.png); */
+  width: 100px;
+  height: 161px;
+  flex-shrink: 0;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 300px;
+  color: #f1efe9;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.user {
+  line-height: 100%;
+}
+.user .username {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.user .userid {
+  font-size: 16px;
+  padding-top: 5;
+  color: #f1efe9;
+}
+
+/* mileston */
+
+.milestonesection {
+  height: 197px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+}
+.milestone {
+  background-color: #2f2f2f;
+  height: 180px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f1efe9;
+}
+
+.title .subtitle {
+  display: flex;
+  padding-left: 10px;
+}
+.title .username {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.progressbar {
+  position: relative;
+  width: 100%;
+  height: 28px;
+  border-radius: 80px;
+  background: #f1efe9;
+}
+
+.progressbar2 {
+  background-color: #b6b995;
+  width: 200px;
+  height: 28px;
+  border-radius: 80px;
+}
+
+.money {
+  display: flex;
+  flex-direction: row;
+}
+
+.money > div {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  color: #f1efe9;
+}
+
+/* sidebar */
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  display: flex;
+  height: 520px;
+  margin-top: 20px;
+  /* padding: 10px 10px; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  border-radius: 50px;
+  background: #d9d9d9;
+}
+
+.sidebar > a {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+.sidebar > a:hover {
+  color: #f1efe9;
+  text-decoration: none;
+}
+
+/* content */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.topbutton {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  font-weight: 700;
+
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.topbutton > a {
+  text-decoration: none;
+}
+.booking {
+  color: #f1efe9;
+  text-decoration: none;
+  text-align: center;
+  width: 122px;
+}
+.booking:hover {
+  /* button-md/button-md */
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20.25px */
+  color: #2f2f2f;
+
+  display: flex;
+  width: 120px;
+  height: 49.66px;
+  padding: 2px 5px 2px 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1efe9;
+  border-radius: 30px;
+}
+.delete {
+  color: #f1efe9;
+  text-decoration: none;
+  text-align: center;
+  width: 122px;
+}
+.delete:hover {
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20.25px */
+  color: #2f2f2f;
+
+  display: flex;
+  width: 120px;
+  height: 49.66px;
+  padding: 2px 2px 2px 2px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1efe9;
+  border-radius: 30px;
+}
+
+/* order */
+
+/* 左邊區塊的樣式、內距設定 */
+.contentdetail {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* 訂單紀錄bar設定 */
+.order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-left: 50px;
+  margin-bottom: 40px; */
+  gap: 20px;
+}
+
+.film {
+  width: 20%;
+  min-height: 220px;
+  background-color: #d9d9d9;
+  background-size: cover;
+}
+
+/* 訂單紀錄bar內容設定 */
+.orderdetail {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding: 5px 50px 5px 50px;
+  align-items: center;
+  justify-content: space-between;
+
+  /* style */
+  border-radius: 20px;
+  background: #2f2f2f;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+
+  /* font */
+  color: #fff;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.desc {
+  display: flex;
+  height: 289px;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-grow: 2; */
+}
+
+/* 訂單紀錄bar左邊設定 */
+.rightcontent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* margin-left: 200px; */
+}
+
+.number {
+  font-size: 100px;
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+  font-weight: 700;
+}
+
+
+.button {
+  display: flex;
+  width: 140px;
+  height: 50px;
+  padding: 15px 20px 16px 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 15px;
+  background: #b6b995;
+  text-decoration: none;
+  color: #f1efe9;
+}
+
+.button:hover {
+  background-color: #F1EFE9;
+  stroke-width: 2px;
+  stroke:  #A6A79B;
+  text-decoration: none;
+  box-shadow: 0px 0px 5px 0px rgba(217, 217, 217, 0.50);
+  color: #b6b995;
+}
+

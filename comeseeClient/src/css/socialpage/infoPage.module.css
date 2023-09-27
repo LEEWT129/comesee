@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap");
+
+
+/* score */
+
+.scoreBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.Score {
+  margin-top: 15px;
+  padding: 8px;
+  width: 128px;
+  height: 128px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 80px;
+  background: #a6a79b;
+
+  text-align: center;
+  align-items: flex-end;
+  font-size: 62px;
+  font-family: "Advent Pro", sans-serif;
+}
+
+.starscore {
+  line-height: 140%;
+
+  color: #f1efe9;
+}
+
+.full {
+  font-size: 30px;
+  color: #f1efe9;
+
+}

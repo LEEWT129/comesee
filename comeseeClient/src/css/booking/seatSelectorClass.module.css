@@ -1,0 +1,100 @@
+/* 整體座位地圖容器 */
+.seatMap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 41px; /* 調整整體地圖與標籤的上方間距 */
+}
+
+/* 單個座位 */
+.seat {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px; /* 調整座位號字型大小 */
+  line-height: 40px;
+
+  transition: top 0.01s linear;
+}
+
+/* 空座位樣式 */
+.empty {
+  /* background-color: #f1efe9;
+  &:hover {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 5px #0af9f1;
+    color: #000;
+  } */
+
+  background-color: #f1efe9;
+  box-shadow: 0 0 0 1px #f1efe9 inset, 0 0 0 2px rgba(168, 168, 168, 0.15) inset,
+    0 8px 0 0 rgba(172, 172, 172, 0.7), 0 8px 0 1px rgba(117, 117, 117, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+
+  position: relative;
+  &:active {
+    top: 9px;
+    background-color: #f1efe9;
+    box-shadow: 0 0 0 1px #f1efe9 inset,
+      0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* 已售出座位樣式 */
+.sold {
+  background-color: #e12c4b;
+  cursor: not-allowed;
+
+  box-shadow: 0 0 0 1px #c63702 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 #9e3428, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* 選中座位樣式 */
+.selected {
+  /* background-color: #64a26a; */
+  /* &:hover {
+    background-color: #64a26a;
+    box-shadow: 0px 2px 10px 5px #ffffff;
+    color: #000;
+  } */
+  background-color: #64a26a;
+  box-shadow: 0 0 0 1px #64a26a inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 rgba(104, 160, 128, 0.7), 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+
+  position: relative;
+  &:active {
+    top: 9px;
+    box-shadow: 0 0 0 1px #82c8a0 inset,
+      0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* 列標籤容器 */
+.columnLabels {
+  display: flex;
+  align-items: center;
+}
+
+/* 單個列標籤 */
+.columnLabel,
+.rowLabel {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  color: #f1efe9;
+  font-size: 15px; /* 調整列標籤字型大小 */
+  border-radius: 10px;
+  line-height: 40px;
+}
+
+.seatRow {
+  display: flex;
+  flex-wrap: nowrap;
+}

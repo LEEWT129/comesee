@@ -1,0 +1,49 @@
+.List {
+    background-color: #000000;
+    font-family: "Noto Sans TC";
+    padding: 120px 0 100px;
+}
+
+.myNav {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.myTabs {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.myLink {
+    width: 230px;
+    height: 75px;
+
+    color: #A6A79B;
+    text-align: center;
+    font-family: "Noto Sans TC";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+}
+
+.myLink:hover {
+    color: #F1EFE9;
+}
+
+:global(.listTab.active) {
+    color: #F1EFE9;
+    border-bottom: 3px solid #F1EFE9;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.myContent {
+    margin-top: 28px;
+    padding: 0 35px 50px;
+    border-radius: 5px;
+    background: rgba(47, 47, 47, 0.50);
+}

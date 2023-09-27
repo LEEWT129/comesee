@@ -1,0 +1,145 @@
+.switchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+/* 上一頁 */
+.btnL {
+    position: relative;
+    color: #F1EFE9;
+    font-family: 'Noto Sans TC';
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 12px 20px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    margin-right: 100px;
+}
+
+.btnL:before {
+    content: "";
+    position: absolute;
+    top: 1;
+    right: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(114, 115, 102, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+
+.btnL span {
+    position: relative;
+    z-index: 1;
+}
+
+.btnL svg {
+    position: relative;
+    top: 0;
+    margin-right: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #ffffff;
+    stroke-width: 2;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+    padding-top: 3px;
+}
+
+.btnL:hover:before {
+    width: 100%;
+    background: #727366;
+}
+
+.btnL:hover svg {
+    transform: translateX(0);
+}
+
+.btnL:hover {
+    color: #F1EFE9;
+}
+
+.btnL:active {
+    color: #F1EFE9;
+    transform: scale(0.96);
+}
+
+
+
+/* 下一頁 */
+.btnR {
+    position: relative;
+    color: #F1EFE9;
+    font-family: 'Noto Sans TC';
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 12px 20px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    margin-left: 100px;
+}
+
+.btnR:before {
+    content: "";
+    position: absolute;
+    top: 1;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(114, 115, 102, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+
+.btnR span {
+    position: relative;
+    z-index: 1;
+}
+
+.btnR svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #F1EFE9;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+    padding-top: 3px;
+}
+
+.btnR:hover:before {
+    width: 100%;
+    background: #727366;
+}
+
+.btnR:hover svg {
+    transform: translateX(0);
+}
+
+.btnR:hover{
+    color: #F1EFE9;
+
+}
+
+.btnR:active {
+    color: #F1EFE9;
+    transform: scale(0.96);
+}

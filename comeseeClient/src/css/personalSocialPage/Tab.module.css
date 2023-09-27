@@ -1,0 +1,74 @@
+/* .main {
+  background-color: #000000;
+  display: inline-block;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 94px;
+} */
+
+.nameAndScore {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.movieImg {
+  height: 160px;
+  margin-left: 30px;
+  flex-shrink: 0;
+}
+
+.content {
+  display: none;
+}
+
+.activecontent {
+  display: block;
+}
+
+.activetabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + -2px);
+  height: 5px;
+}
+
+.tabs {
+  color: #f1efe9;
+  text-align: center;
+  font-family: Noto Sans TC;
+  font-size: 24px;
+  font-style: normal;
+  width: 230px;
+  height: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-shrink: 0;
+  line-height: 140%;
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.activetabs {
+  color: #b6b995;
+  border-bottom: 1px solid #b6b995;
+  font-family: Noto Sans TC;
+  font-size: 24px;
+  font-style: normal;
+  width: 230px;
+  height: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-shrink: 0;
+  line-height: 140%;
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}

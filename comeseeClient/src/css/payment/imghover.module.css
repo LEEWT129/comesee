@@ -1,0 +1,47 @@
+.imgContainer {
+    position: relative;
+    width: 142.634px;
+    height: 210px;
+    margin-right: 15px;
+    display: inline-block;
+    margin: 10px 15px 44px 0;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.imgContainer:hover img {
+    opacity: 0.1;
+}
+
+.imgBtn {
+    position: absolute;
+    left: 22px;
+    display: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid #F1EFE9;
+    background-color: rgba(0, 0, 0, 0.0);;
+
+    color: #F1EFE9;
+    text-align: center;
+    font-family: 'Noto Sans TC';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.5px
+}
+
+.imgContainer:hover .imgBtn {
+    display: block;
+}
+
+.imgBtn:hover {
+    background-color: #727366;
+    border-color: #A6A79B;
+
+}

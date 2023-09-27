@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap');
+
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #f1efe9;
+  font-family: "Noto Sans TC";
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.box {
+  padding: 160px 50px 80px;
+  background: rgba(47, 47, 47, 0.5);
+}
+
+/* top */
+
+.poster {
+  width: 100%;
+  height: 430px;
+}
+
+.title {
+  font-family: "Noto Sans TC";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.subtitle {
+  color: #f1efe9;
+  font-family: "Noto Sans TC";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.info {
+  margin: 50px 0;
+  line-height: 22px;
+  word-wrap: break-word;
+  font-family: "Noto Sans TC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.info>p {
+  margin-bottom: 10px;
+}
+
+/* score */
+
+.scoreBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.Score {
+  margin-top: 15px;
+  padding: 8px;
+  width: 128px;
+  height: 128px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 80px;
+  background: #a6a79b;
+
+  text-align: center;
+  align-items: flex-end;
+  font-size: 70px;
+}
+
+.starscore {
+  line-height: 130%;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.full {
+  font-size: 30px;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+/* tabs */
+
+.myNav {
+  padding: 0;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.myTabs {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.myLink {
+  width: 230px;
+  height: 75px;
+
+  color: #A6A79B;
+  text-align: center;
+  font-family: "Noto Sans TC";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+}
+
+.myLink:hover {
+  color: #F1EFE9;
+}
+
+:global(.infoTab.active) {
+  color: #F1EFE9;
+  border-bottom: 3px solid #F1EFE9;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.myContent {
+  padding: 50px 60px;
+  border-radius: 5px;
+  background: rgba(47, 47, 47, 0.5);
+}
+
+/* time */
+
+.mySelect {
+  width: 150px;
+  height: 45px;
+
+  padding: 9px;
+  margin-bottom: 30px;
+
+  font-family: "Noto Sans TC";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+
+  color: #F1EFE9;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #F1EFE9;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.mySelect>option {
+  color: #2F2F2F;
+}
+
+.dateBox {
+  display: flex;
+  gap: 20px;
+}
+
+.dbtn {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50px;
+  border: 1.5px solid #F1EFE9;
+  background-color: rgba(0, 0, 0, 0.0);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 5px;
+
+  color: #F1EFE9;
+  font-family: 'Lucida Sans Unicode', 'Noto Sans TC';
+  font-weight: 600;
+  text-align: center;
+}
+
+.Date1 {
+  margin-top: 3px;
+  font-size: 34px;
+  line-height: 32px;
+}
+
+.Date2 {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+:global(.d-box .btn-check+.btn:hover) {
+  color: #B6B995;
+  border: 2px solid #B6B995;
+  /* background-color: #F1EFE9; */
+}
+
+:global(.d-box .btn-check:checked+.btn) {
+  color: #2F2F2F;
+  background-color: #F1EFE9;
+  border: 2px solid #F1EFE9;
+}
+
+.theaterTime {
+  margin-top: 30px;
+}
+
+/* story */
+
+.text {
+  line-height: 200%;
+}
+
+.videobox {
+  position: relative;
+  width: 100%;
+  height: 0;
+  margin: 30px 0;
+  padding-bottom: 56.25%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

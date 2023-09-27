@@ -1,0 +1,281 @@
+:root {
+  --title-color: #f1efe9;
+  --gray: rgba(47, 47, 47, 0.5);
+  --movie-info: #d9d9d9;
+}
+
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.main {
+  background-color: #000000;
+  display: inline-block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.grayBackground {
+  background: var(--gray);
+  padding: 130px 12px 0px 12px;
+  min-height: 100vh;
+}
+.grade {
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: #7dca84cc;
+  color: #f1efe9;
+  text-align: center;
+  font-family: "Noto Sans TC";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22.5px;
+  justify-content: center;
+  padding: 5px 15px 5px 15px;
+}
+
+.top {
+  margin-left: 100px;
+  margin-right: 100px;
+  /* border-bottom: 1px solid var(--title-color); */
+  padding-bottom: 41px;
+}
+
+.info {
+  padding-left: 30px;
+  padding-right: 0;
+}
+.movieImage {
+  padding: 0;
+  width: fit-content;
+}
+
+.movieImage > img {
+  height: 434px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin-left: auto;
+}
+
+.cnTitle {
+  color: var(--title-color);
+  font-size: 46px;
+  margin: 0;
+}
+
+.enTitle {
+  color: var(--title-color);
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+
+.movieInfo {
+  color: var(--movie-info);
+}
+.movieInfo div {
+  line-height: 25px;
+}
+
+.actorList {
+  display: inline-block;
+  width: 80%; /* 设置容器宽度 */
+  white-space: nowrap; /* 防止文本换行 */
+  overflow: hidden; /* 隐藏溢出的内容 */
+  text-overflow: ellipsis; /* 在溢出的位置显示省略号 */
+}
+
+.bookingInfo {
+  color: var(--movie-info);
+  font-weight: 700;
+  margin-top: 45px;
+}
+
+.bookingInfo div {
+  line-height: 30px;
+}
+.down {
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+.sidebar {
+  margin: 50px 0 0 0px;
+  padding: 0px;
+  width: fit-content;
+}
+
+.sidebarChoose {
+  border-bottom: 3px solid #f1efe9;
+}
+
+.seatArea {
+  padding: 0;
+}
+
+.seatText {
+  color: #f1efe9;
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  margin: 66px auto 20px auto;
+  transform: translateX(20px);
+}
+
+.seatText span {
+  font-size: 18px;
+}
+
+.sample {
+  display: flex;
+  color: #f1efe9;
+  justify-content: center;
+}
+
+.sample > div {
+  display: flex;
+  align-items: center;
+  margin-right: 62px;
+}
+
+.sample > div:nth-child(3) {
+  margin-right: 0px;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.sample span {
+  font-size: 16px;
+}
+
+/* 空座位樣式 */
+.empty {
+  background-color: #f1efe9;
+  box-shadow: 0 0 0 1px #f1efe9 inset, 0 0 0 2px rgba(168, 168, 168, 0.15) inset,
+    0 8px 0 0 rgba(172, 172, 172, 0.7), 0 8px 0 1px rgba(117, 117, 117, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* 已售出座位樣式 */
+.sold {
+  background-color: #e12c4b;
+  box-shadow: 0 0 0 1px #c63702 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 #9e3428, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* 選中座位樣式 */
+.selected {
+  background-color: #64a26a;
+  box-shadow: 0 0 0 1px #64a26a inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 rgba(104, 160, 128, 0.7), 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*螢幕*/
+
+.screen {
+  background-color: #171717;
+  font-size: 20px;
+  color: #ffffff;
+  width: 400px;
+  height: 30px;
+  line-height: 25px;
+  margin: auto;
+  transform: translateX(20px);
+
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
+  /* padding: 0.4em;   */
+  box-shadow: 0 0 0.1rem #fff, 0 0 0.2rem #fff, 0 0 1rem #fff, 0 0 0.8rem #fff,
+    0 0 2.3rem #fff, inset 0 0 0.5rem #fff;
+}
+
+.neonText {
+  animation: flicker 1.2s infinite alternate;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,
+    0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+}
+/* Flickering animation */
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #fff,
+      0 0 80px #fff, 0 0 90px #fff, 0 0 100px #fff, 0 0 150px #fff;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+/*中間線*/
+.loader {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+.tracker {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+.tracker::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: #f1efe9; */
+  background-color: rgba(
+    241,
+    239,
+    233,
+    0
+  ); /* 使用 rgba() 函数来设置透明背景色 */
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  0%,
+  15% {
+    transform: scaleX(0);
+    transform-origin: left;
+    background-color: rgba(241, 239, 233, 0); /* 透明度逐渐增加 */
+  }
+  45% {
+    transform: scaleX(1);
+    transform-origin: left;
+    background-color: #757575; /* 更深的透明度 */
+  }
+  60% {
+    transform: scale(1);
+    transform-origin: right;
+    background-color: #757575; /* 保持透明度 */
+  }
+  85%,
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+    background-color: rgba(241, 239, 233, 0); /* 透明度逐渐减小 */
+  }
+}

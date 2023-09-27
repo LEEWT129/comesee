@@ -1,0 +1,30 @@
+.all {
+    min-height: 100vh;
+    background-color: #000;
+    margin-top: 94px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.starlight {
+    cursor: pointer;
+}
+
+.rotate {
+    transform: scaleX(-1);
+}
+
+.halfStarContainer {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.halfStarContainer>.rotate {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

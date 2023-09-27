@@ -1,0 +1,26 @@
+.playListOutside {
+  padding: 18px 37px;
+  width: fit-content;
+}
+
+.p {
+  /* color: #fff; */
+  color: #ffffff;
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.5px;
+  margin-top: 16px;
+}
+
+.span {
+  /* color: #fff; */
+  color: #ffffff;
+  font-family: Noto Sans TC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px;
+  /* margin-top: 16px; */
+}

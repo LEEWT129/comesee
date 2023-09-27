@@ -1,0 +1,28 @@
+nav {
+    background-color: #0C0C0C;
+    width: 100%;
+    height: 94px;
+    justify-content: end;
+    padding: 33px 77px 33px 77px;
+}
+
+
+.navLogo {
+    text-decoration: none;
+    font-family: 'Noto Sans TC';
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.navberA>a{
+    text-decoration: none;
+    font-family: 'Noto Sans TC';
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 20px;
+    font-style: normal;
+}

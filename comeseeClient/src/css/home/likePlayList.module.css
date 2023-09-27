@@ -1,0 +1,38 @@
+.listAndBtn {
+  /* margin: 0; */
+  display: flex;
+}
+
+.listname {
+  font-size: 25px;
+  margin-right: 13px;
+  line-height: 48px;
+  color: #2f2f2f;
+  /* font-weight: 400; */
+}
+
+.addBtn {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  width: 60px; 
+  height: 30px;
+  margin-top: 11px;
+  /* padding: 12px 25px; */
+  border-radius: 15px;
+  /* font */
+  text-decoration: none;
+  color: #f1efe9;
+  background: #b6b995;
+  border: none;
+}
+
+.addBtn:hover {
+  background-color: #f1efe9;
+  text-decoration: none;
+  stroke-width: 2px;
+  stroke: #a6a79b;
+  box-shadow: 0px 0px 5px 0px rgba(217, 217, 217, 0.5);
+  border: 2px solid #BDBDBD;
+  color: #979c61;
+}

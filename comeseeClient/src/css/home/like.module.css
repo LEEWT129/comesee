@@ -1,0 +1,35 @@
+.btnContainer{
+    float: right;
+    z-index: 1;
+}
+
+.fontsize {
+    color: #A6A79B;
+    background-color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.btnstyle {
+    background-color: transparent;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+
+    border: transparent;
+}
+
+.toastsize {
+    width: 180px;
+}
+
+.linksize {
+    font-family: "Noto Sans TC";
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 700;
+}

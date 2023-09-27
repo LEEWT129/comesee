@@ -1,0 +1,36 @@
+.LoveButtonTitle{
+    color: #ffffff;
+  }
+  
+  .LoveButtonContainer{
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  
+  .a1{
+    margin-top: 20px;
+  }
+  
+  .b1{
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    background-color: #A6A79B;
+    color: #F1EFE9;
+
+  }
+
+  .b1:hover {
+    background-color: #F1EFE9;
+    color: #A6A79B;
+  }
+
+  .b1:active,
+  .b1:focus {
+  background-color: #F1EFE9; /* 修改按钮背景色为蓝色，你可以根据需要修改颜色 */
+  color: #A6A79B;
+  }
+  .a2{
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,280 @@
+.all {
+  min-height: 100vh;
+  background-color: #000;
+  /* min-width: 100vw; */
+}
+
+.body {
+  min-height: 100vh;
+  margin-top: 94px;
+  /* min-width: 100vw; */
+}
+
+.A2 {
+  width: 1311px;
+  height: auto;
+  gap: 61px;
+  margin-bottom: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.collect2 {
+  color: #fbf9f9;
+  text-align: center;
+  font-family: Noto Sans TC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 30px;
+  margin-right: 96px;
+}
+
+.collect1 {
+  color: #fbf9f9;
+  text-align: center;
+  font-family: Noto Sans TC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 30px;
+}
+
+.content1 {
+  font-family: Noto Sans TC;
+  /* width: 412px; */
+  /* height: 380px; */
+  padding: 31px 20px 31px 20px;
+  border-radius: 15px;
+  gap: 10px;
+  background-color: #2f2f2f;
+  color: #ffffff;
+  /* margin-right: 20px;
+  margin-bottom: 28px;
+  margin-top: 28px; */
+}
+
+.moviename {
+  margin-left: 26px;
+  font-size: 18px;
+}
+
+.user {
+  margin-top: 34px;
+}
+
+.userphoto {
+  width: 41px;
+  height: 41px;
+  /* border-radius: 35px; */
+  /* background-image: url(../../img/photo.jpg); */
+  /* background-size: 100%; */
+  float: left;
+  flex-shrink: 0;
+}
+
+.userinfo {
+  flex-shrink: 0;
+  float: left;
+  margin-left: 14px;
+}
+
+.username1 {
+  font-size: 14px;
+  width: auto;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.date {
+  /* width: auto;
+  height: auto; */
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+/*.star {
+  flex-basis: 300px; 
+  float: right; 
+  flex-shrink: 3; 
+  position: relative;
+  top: -40px; 
+}*/
+
+.star svg {
+  margin-left: 40px;
+  /* float: right; */
+  /* flex-shrink: 3; */
+  /* position: relative; */
+  /* top: -40px; */
+  /* margin-left: 190px; */
+}
+
+.text1 {
+  color: #fff;
+  text-align: justify;
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  margin-top: 34px;
+}
+
+.divrelative {
+  position: relative;
+  color: #000;
+  width: 273px;
+  height: 333px;
+  margin-bottom: 56px;
+}
+
+.moviesave {
+  position: relative;
+  width: 140px;
+  height: 208px;
+  border-radius: 20px;
+  background-image: url(../../img/Rectangle76.png);
+}
+
+.diva {
+  position: absolute;
+  width: 140px;
+  height: 208px;
+  border-radius: 20px;
+  left: 20px;
+  background: #2f2f2f;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.divb {
+  position: absolute;
+  width: 140px;
+  height: 208px;
+  border-radius: 20px;
+  left: 40px;
+  background: #2f2f2f;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.divc {
+  position: absolute;
+  width: 140px;
+  height: 208px;
+  border-radius: 20px;
+  left: 60px;
+  background: #2f2f2f;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.movielist {
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  position: absolute;
+  top: 242px;
+}
+
+.subsave {
+  position: absolute;
+  top: 281px;
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.movietype {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 56px;
+}
+
+.mm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 107px;
+  margin-left: 100px;
+}
+
+.mmm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.preference {
+  display: none;
+}
+
+.info {
+  font-family: Noto Sans TC;
+  display: flex;
+  flex-direction: row;
+  margin-top: 94px;
+
+  background-color: #2f2f2f;
+  height: 263px;
+  padding: 10px 30px;
+  border-radius: 15px;
+
+  align-items: center;
+  gap: 61px;
+}
+
+.img {
+  /* background-image: url(/img/Ellipse.png); */
+  width: 100px;
+  height: 161px;
+  flex-shrink: 0;
+}
+
+.intro {
+  font-family: Noto Sans TC;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 300px;
+  color: #f1efe9;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.user {
+  line-height: 100%;
+}
+
+.user .username {
+  font-family: Noto Sans TC;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.user .userid {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  padding-top: 5;
+  color: #f1efe9;
+}
+
+.arr5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenttabs {
+  margin-top: 46px;
+}

@@ -1,0 +1,29 @@
+/* Your existing styles for .my-input go here */
+
+.input input{
+    color: #848586;
+        text-align: center;
+        font-family: 'Noto Sans TC';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        width: 80px;
+        height: 30px;
+        border: 1px solid #A6A79B;
+        background: #F1EFE9;
+        border-radius: 8px;
+  }
+  
+  .input input:focus {
+    color: #000000;
+    box-shadow: 0 0 20px rgba(240, 240, 240,0.5);
+    outline-color: rgba(225, 51, 45, 0) !important;
+    text-shadow: 1px 1px 2px #427388;
+  }
+  
+  .input input:focus:hover {
+    color: #000000;
+    box-shadow: 0 0 20px rgba(240, 240, 240);
+    text-shadow: 1px 1px 2px #427388;
+  }

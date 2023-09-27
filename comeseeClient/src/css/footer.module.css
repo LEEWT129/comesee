@@ -1,0 +1,68 @@
+.footer {
+    width: 100%;
+    background-color: #0C0C0C;
+}
+
+.myFooter {
+    padding-top: 30px;
+}
+
+.footerRow {
+    border-top: 1px solid #F1EFE9;
+}
+
+.footerLogo {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Odor Mean Chey';
+    font-style: normal;
+    background-image: url(../img/logo-v6.png);
+    background-size: contain;
+    width: 160px; 
+    height:80px;
+}
+
+.footerComesee {
+    font-family: 'Noto Sans TC';
+    color: #A6A79B;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin-left: 0px;
+}
+
+.footerLogoP {
+    padding-top: 26px;
+}
+
+.footerA>a {
+    text-decoration: none;
+    font-family: 'Noto Sans TC',;
+    color: #A6A79B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 59px;
+}
+
+.footerA>a:nth-child(1) {
+    margin-left: 0px;
+}
+
+.footerA {
+    padding-top: 40px;
+}
+
+.footerContent,.footerContent a{
+    color: #F1EFE9;
+    font-family: 'Noto Sans TC';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 26px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}

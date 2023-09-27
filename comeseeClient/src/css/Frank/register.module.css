@@ -1,0 +1,219 @@
+.all {
+    min-height: 100%;
+    background-color: black;
+}
+
+.inside {
+    padding-top: 94px;
+    background: rgba(47, 47, 47, 0.50);
+    width: 1258px;
+}
+
+.register {
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    /* background-color: rebeccapurple; */
+}
+
+
+.message {
+    display: none;
+}
+
+.input:invalid~.message {
+    display: block;
+}
+
+.input:invalid {
+    border: 3px #E12C4B solid;
+}
+
+.forminput {
+    margin-top: 30px;
+
+}
+
+.label {
+    font-family: Noto Sans TC;
+    color: #F1EFE9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    width: 220px;
+    /* 20px */
+}
+
+
+.input {
+    color: #000000;
+    background-color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    width: 280px;
+    height: 35px;
+    margin-right: 10px;
+
+}
+
+
+.input::placeholder {
+    color: #B6B995;
+    font-size: 10px;
+
+}
+
+
+.registertitle {
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    /* 30px */
+}
+
+.email {
+    margin-top: 30px;
+    display: flex;
+    
+    
+}
+
+.email2 {
+    margin-top: -25px;
+    display: flex;
+}
+
+.gender {
+    margin-top: 30px;
+    font-family: Noto Sans TC;
+    color: #F1EFE9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.message {
+    color: #E12C4B;
+    font-family: Noto Sans TC;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+    margin-left: 220px;
+    /* 15px */
+}
+
+.btncheck {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnstyle {
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    color: #F1EFE9;
+    background-color: #B6B995;
+    border: #A6A79B solid 2px;
+    text-align: center;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    margin-right: -200px;
+}
+
+.btnstyle2 {
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    color: #F1EFE9;
+    background-color: #B6B995;
+    border: #A6A79B solid 2px;
+    text-align: center;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.btnstyle:hover {
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    color: #A6A79B;
+    background-color: #F1EFE9;
+    border: #A6A79B solid 2px;
+    text-align: center;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+
+}
+
+.address {
+    margin-top: 30px;
+}
+
+.addressinput {
+    width: 135px;
+    height: 35px;
+    background-color: #F1EFE9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.addressinput2 {
+    width: 100px;
+    height: 35px;
+    background-color: #F1EFE9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    color: #A6A79B;
+    margin-left: 220px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.btnmodaltitle {
+    color: #A6A79B;
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 20px */
+}
+
+.btnmovie {
+    text-align: center;
+}
+
+.modal {
+    background-color: #d9d9d9;
+    border-radius: 15px;
+}

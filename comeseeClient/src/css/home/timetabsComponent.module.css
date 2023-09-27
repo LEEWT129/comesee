@@ -1,0 +1,195 @@
+/* Accordion */
+
+.ta {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #f1efe9;
+}
+
+.header {
+    padding: 20px 10px;
+}
+
+.title {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.title:hover {
+    color: #B6B995;
+    text-decoration: none;
+}
+
+.vat {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.vat2 {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.vb {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 25px;
+}
+
+.tb {
+    display: flex;
+    gap: 15px 20px;
+    flex-wrap: wrap;
+}
+
+.timeBtn {
+    width: 110px;
+    height: 40px;
+
+    border: 1.5px solid #F1EFE9;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.0);
+
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+
+}
+
+.timeBtn:active {
+    color: #2F2F2F;
+    background-color: #F1EFE9;
+}
+
+/* modal */
+
+.modalcontent {
+    width: 900px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+}
+
+.modalheader {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+}
+
+.modalbody {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalfooter {
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 0 0 20px;
+}
+
+.checkTable {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkTitle {
+    color: #2F2F2F;
+    font-family: "Noto Sans TC";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.checkInfo {
+    color: #2F2F2F;
+    font-family: "Noto Sans TC";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+.tdbd {
+    border-left: 1px solid #2F2F2F;
+    padding: 0 10px;
+}
+
+.numberTitle {
+    margin-top: 35px;
+    text-align: center;
+    color: #2F2F2F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.numberForm {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.numberLabel {
+    border: 2px solid #2F2F2F;
+    border-radius: 30px;
+    color: #2F2F2F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 120%;
+}
+
+.numberForm>.numberLabel:hover {
+    color: #AE1914;
+    border: 2px solid #AE1914;
+}
+
+:global(.ckmd .btn-check:checked+.btn) {
+    color: #F1EFE9;
+    background-color: #AE1914;
+    border: 2px solid #AE1914;
+}
+
+
+.modalcheck {
+    width: 100px;
+    height: 40px;
+    color: #F1EFE9;
+    border: none;
+    border-radius: 15px;
+    background-color: #2F2F2F;
+
+    font-family: "Noto Sans TC";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.modalcheck:active {
+    background-color: #AE1914;
+}

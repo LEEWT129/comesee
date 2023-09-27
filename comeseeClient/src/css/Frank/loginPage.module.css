@@ -1,0 +1,204 @@
+.Login {
+    color: #F1EFE9;
+    font-family: 'Noto Sans TC';
+    background-color: #000000;
+    min-height: 110vh;
+}
+
+.bg {
+    height: 110vh;
+    padding-top: 160px;
+    background: rgba(47, 47, 47, 0.50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formBox {
+    margin: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+}
+
+.text {
+    margin: 40px 0 15px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.fp {
+    color: #F1EFE9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.tip {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.gr {
+    color: #F1EFE9;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.fp:hover,
+.gr:hover {
+    color: #B6B995;
+}
+
+.in {
+    width: 380px;
+    height: 55px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+
+    background-color: #F1EFE9;
+    border-radius: 3px;
+    border: none;
+
+    color: #2f2f2f;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.sbtn {
+    width: 125px;
+    height: 50px;
+    margin-top: 30px;
+
+    border: 2px solid #727366;
+    border-radius: 18px;
+    background-color: #f0f0f0;
+
+    color: #727366;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%;
+    float: right;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sbtn:hover {
+    color: #F1EFE9;
+    border: 2px solid #F1EFE9;
+}
+
+.sbtn span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: #727366;
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.sbtn:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.sbtn span:nth-child(1) {
+    --n: 1;
+}
+
+.sbtn span:nth-child(2) {
+    --n: 2;
+}
+
+.sbtn span:nth-child(3) {
+    --n: 3;
+}
+
+.sbtn span:nth-child(4) {
+    --n: 4;
+}
+
+
+
+
+
+.box {
+    margin-top: 50px;
+}
+
+.tw {
+    display: flex;
+    margin: 35px 0 40px;
+    gap: 30px;
+}
+
+.Lbtn {
+    border: none;
+    border-radius: 15px;
+    width: 170px;
+    height: 43px;
+    color: #727366;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.Lbtn:hover {
+    background: #D9D9D9;
+}
+
+.icon {
+    height: 28px;
+    width: 28px;
+}
+
+.error {
+    color: #E12C4B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin-bottom: 5px;
+}

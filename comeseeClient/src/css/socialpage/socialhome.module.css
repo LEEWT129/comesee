@@ -1,0 +1,483 @@
+.all {
+    min-height: 100vh;
+    background-color: #000;
+}
+
+.body {
+    margin-top: 80px;
+    background: rgba(47, 47, 47, 0.50);
+
+}
+
+.mostpop {
+    width: 1258px;
+    height: 510px;
+}
+
+.input-group {
+    width: 100px;
+    height: 36px;
+}
+
+.findmov {
+    width: auto;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.findmovinput {
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #8C8C83 !important;
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    width: 306px !important;
+}
+
+.findmovinput::placeholder {
+    color: #8C8C83 !important;
+    font-family: Noto Sans TC;
+    font-size: 18px;
+}
+
+.formselect {
+    width: 306px !important;
+    flex-direction: column;
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    align-items: flex-start;
+    align-self: stretch;
+    color: #8C8C83;
+}
+
+.movieview {
+    display: flex;
+    justify-content: left;
+    flex-shrink: 0;
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 33px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-bottom: 1px solid #F1EFE9;
+
+}
+
+.movievalue {
+    width: 1060px;
+    height: 101px;
+    border-bottom: 1px solid #F1EFE9;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: left;
+}
+
+.movievalue2 {
+    width: 1060px;
+    height: 360px;
+    border-bottom: 1px solid #F1EFE9;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: left;
+}
+
+.myh5 {
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.myh51 {
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    padding-left: 85px;
+    /* 22.4px */
+}
+
+.myh5b {
+    margin-top: 35px;
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.myh5c {
+    margin-top: 35px;
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+/*.movievalue2>h5 {
+    margin-top: 35px;
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}*/
+
+.movievalue>svg {
+    margin-top: 38px;
+    margin-right: 10px;
+    transform: rotate(-90deg);
+}
+
+.movievalue2>svg {
+    margin-top: 38px;
+    margin-right: 10px;
+}
+
+.star {
+    margin-top: 33px;
+    margin-left: 270px;
+}
+
+.movievalue2>.moviedate {
+    margin-left: 80px;
+    margin-top: 35px;
+
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.moviedate {
+    margin-left: 280px;
+    margin-top: 35px;
+
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.longmoviepost {
+    width: 194.306px;
+    height: 280px;
+    flex-shrink: 0;
+    background: url(../../img/Rectangle76.png), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 15px 5px #000 inset;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.moviecom {
+    width: 630px;
+    height: 225px;
+    border-radius: 15px;
+    background: #2F2F2F;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 90px;
+}
+
+
+.ratingchampion {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: Space-between;
+}
+
+.ratingpost {
+    width: 70%;
+    /* height: 500px; */
+}
+
+.ratingword {
+    background-color: #424242;
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 35px;
+
+}
+
+.inside {
+    height: 450px;
+}
+
+.accordion123 {
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding-right: 50px;
+    display: flex;
+
+}
+
+.accordion1234 {
+    padding-top: 3px;
+    margin-left: 5px;
+}
+
+.accordionall {
+    background-color: transparent;
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    /* font-size: 16px; */
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+.accordionh2 {
+    height: 80px;
+    border-bottom: 1.5px solid #F1EFE9;
+    margin-bottom: 0px;
+}
+
+.accordionbody {
+    border-bottom: 1.5px solid #F1EFE9;
+    display: flex;
+    padding: 10px 0px 20px 0px;
+}
+
+.usercomment {
+    width: 700px;
+    background-color: #2F2F2F;
+    border-radius: 15px;
+    padding: 18px 30px;
+    display: flex;
+    flex-direction: column;
+
+    max-height: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.usercontent {
+    margin-bottom: 0px;
+    color: #F1EFE9;
+    height: 40px;
+    white-space: nowrap;
+    /* 防止文本换行 */
+    overflow: hidden;
+    /* 隐藏超出部分的文本 */
+    text-overflow: ellipsis;
+    /* 用省略号表示被截断的文本 */
+    display: flex;
+    flex-direction: row;
+}
+
+.usercontent1 {
+    margin-bottom: 0px;
+    color: #F1EFE9;
+    white-space: nowrap;
+    /* 防止文本换行 */
+    overflow: hidden;
+    /* 隐藏超出部分的文本 */
+    /* text-overflow: ellipsis; */
+    /* 用省略号表示被截断的文本 */
+}
+
+.usercontent2 {
+    width: 430px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 3px;
+
+}
+
+/* .moviecomment {
+    padding-left: 120px;
+} */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.btnpage {
+    background-color: transparent;
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    border: transparent;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.btnpage:hover {
+    background-color: transparent;
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    border: transparent;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.btnpageonclick {
+    background-color: transparent;
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    border: transparent;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.btnclick {
+    border-radius: 50px;
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #F1EFE9;
+    background-color: transparent;
+}
+
+.ratingtitle {
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 33.6px */
+}
+
+.ratingMN {
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding-top: 17px;
+    /* 64.4px */
+}
+
+.ratingMEN {
+    color: var(--primary-mint, #F1EFE9);
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+}
+
+.ratingSC {
+    padding-top: 50px;
+}
+
+.rotated {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+    /* 添加过渡效果 */
+}
+
+.linkstyle {
+    text-decoration: none;
+    color: #F1EFE9;
+    width: 60px;
+    padding-top: 3px;
+
+}
+
+.linkstyle:hover {
+    text-decoration: underline;
+    color: #F1EFE9;
+}
+
+.btnmore {
+    position: relative;
+    width: 100px;
+    background: rgba(166, 167, 155, 0.5);
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    color: #F1EFE9;
+    overflow: hidden;
+}
+
+.btnmore div,
+.btnmore:before {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    padding: 0px 15px;
+}
+
+.btnmore:before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translate(-100%, 0);
+}
+
+.btnmore:hover div {
+    opacity: 0;
+    transform: translate(100%, 0)
+}
+
+.btnmore:hover:before {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.btnmore2 {
+    text-align: center;
+}

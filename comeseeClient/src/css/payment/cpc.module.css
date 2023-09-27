@@ -1,0 +1,428 @@
+/* 整個頁面背景 */
+.mainBg {
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+/* 內容灰色背景 */
+.contentBackground {
+    min-height: 100vh;
+    background-color: rgba(47, 47, 47, 0.50);
+}
+
+.cpcSidebar {
+    margin: 130px 0 0 100px;
+}
+
+
+
+/* Confirm */
+.movieContentConfirm {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+.movieInfo {
+    margin: 0px 80px 0px 80px;
+}
+
+
+/* 電影名稱欄位 */
+.movieName {
+    margin-left: 30px;
+    margin-top: 118px;
+}
+
+.movieNameC {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 46px;
+    font-style: "normal";
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.movieNameE {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-left: 5px;
+}
+
+/* 電影資訊All */
+.movieContent {
+    margin-left: 30px;
+    margin-top: 125px;
+}
+
+/* 電影資訊Title */
+.contentTitle {
+    color: #D9D9D9;
+    font-family: "Noto Sans TC";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+/* 電影資訊內容 */
+.content {
+    color: #D9D9D9;
+    font-family: "Noto Sans TC";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+/* 總計動畫 */
+.confirmTitle {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s;
+
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        border: 2px solid #616161;
+        transition: all .5s;
+        animation: clippath 3s infinite linear;
+        border-radius: 10px;
+    }
+
+    &::after {
+        animation: clippath 3s infinite -1.5s linear;
+    }
+}
+
+@keyframes clippath {
+
+    0%,
+    100% {
+        clip-path: inset(0 0 98% 0);
+    }
+
+    25% {
+        clip-path: inset(0 98% 0 0);
+    }
+
+    50% {
+        clip-path: inset(98% 0 0 0);
+    }
+
+    75% {
+        clip-path: inset(0 0 0 98%);
+    }
+}
+
+
+/* Payment */
+.paymentP {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    /* 30px */
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.paymentBill {
+    margin-top: 70px;
+}
+
+.paymentRight {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.memInfo {
+    margin-top: 100px;
+    border-top: 2px solid #F1EFE9;
+    padding-top: 30px;
+    margin-right: 100px;
+}
+
+.memPhone {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin-left: 50px;
+}
+
+.memEmail {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.memPhone>input,
+.memEmail>input {
+    width: 306px;
+    height: 40px;
+    background-color: #F1EFE9;
+    border: 0px;
+
+    color: #727366;
+    font-family: "Noto Sans TC";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 17.5px */
+}
+
+
+.paymentBtn {
+    margin: 45px 0 50px 500px;
+}
+
+.creditCard {
+    background-color: #F1EFE9;
+    margin: 20px 0 0 60px;
+    width: 583px;
+    height: 200px;
+    border-radius: 15px;
+    background: #F1EFE9;
+    box-shadow: 0px 4px 4px 2px #F1EFE9;
+
+}
+
+.creditTitle {
+    margin-top: 20px;
+    color: #A6A79B;
+    font-family: "Noto Sans TC";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+.creditNum {
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+
+
+    color: #B6B995;
+    text-align: center;
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    width: 90px;
+    height: 30px;
+}
+
+.creditDate {
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+
+
+    color: #B6B995;
+    text-align: center;
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+.creditCode {
+    margin-left: 30px;
+}
+
+
+
+.creditP {
+    margin-top: 10px;
+    margin-left: 0px;
+    color: #E12C4B;
+    font-weight: bold;
+}
+
+.billInfo {
+    background-color: #F1EFE9;
+    margin: 20px 0 0 10px;
+    width: 583px;
+    height: 200px;
+    border-radius: 15px;
+    background: #F1EFE9;
+    box-shadow: 0px 4px 4px 2px #F1EFE9;
+}
+
+.memBill {
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+
+
+    color: #B6B995;
+    text-align: center;
+    font-family: "Noto Sans TC";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+
+.ticketRule {
+    color: #8C8C83;
+    font-family: "Noto Sans TC";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 300%;
+    margin: 50px 50px 0 50px;
+    padding: 30px 30px 0 30px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    border: 5px solid #A6A79B;
+    background: #F1EFE9;
+}
+
+.ticketRuleBtn>button {
+    margin: 20px 0 20px 80%;
+}
+
+
+/* PaymentCompleted */
+.completeRight {
+    margin-top: 150px;
+    margin-right: 130px;
+    text-align: center;
+}
+
+.completeP1 {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+
+}
+
+.completeP2 {
+    color: #F1EFE9;
+    font-family: Noto Sans TC;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+
+.recommend {
+    margin-top: 100px;
+}
+
+
+.circle {
+    stroke:#64A26A;
+    stroke-dasharray: 1194;
+    stroke-dashoffset: 1194;
+    animation: circle 2s linear forwards;
+    animation-delay: -1s;
+}
+
+
+.tick {
+    stroke:#64A26A;
+    stroke-dasharray: 350;
+    stroke-dashoffset: 350;
+    animation: tick 2s ease forwards;
+    animation-delay: 1s;
+
+}
+
+@keyframes circle {
+    from {
+        stroke-dashoffset: 1194;
+    }
+
+    to {
+        stroke-dashoffset: 2388;
+    }
+}
+
+@keyframes tick {
+    from {
+        stroke-dashoffset: 350;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+/* 你可能感興趣...(打字機效果) */
+.recommend>p {
+    color: #F1EFE9;
+    font-family: "Noto Sans TC";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin-bottom: 28px;
+    height: 22px;
+    animation: typing 2s steps(9, end);
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 9em;
+    }
+}
+
+;

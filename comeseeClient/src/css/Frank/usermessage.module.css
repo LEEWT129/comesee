@@ -1,0 +1,90 @@
+.allinput {
+  margin-top: 30px;
+}
+
+.b1 {
+  color: #ffffff;
+}
+
+.c1 {
+  width: 300px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.c2 {
+  width: 300px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.c3 {
+  width: 300px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.c41 {
+  width: 140px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.c42 {
+  width: 150px;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.d4 {
+  width: 300px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.c5 {
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.d5 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 250px;
+  margin-top: -40px;
+}
+
+.changeBtn {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* width: 50px; */
+  /* height: 68px; */
+  padding: 12px 25px;
+  border-radius: 15px;
+  /* font */
+  text-decoration: none;
+  /* color: #f1efe9; */
+  /* background: #b6b995; */
+  border: 2px solid #a6a79b;
+  background-color: #f1efe9;
+  color: #8c8c83;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.changeBtn:hover {
+  background-color: #727366;
+  text-decoration: none;
+  stroke-width: 2px;
+  stroke: #a6a79b;
+  box-shadow: 0px 0px 5px 0px rgba(217, 217, 217, 0.5);
+  color: #f1efe9;
+}

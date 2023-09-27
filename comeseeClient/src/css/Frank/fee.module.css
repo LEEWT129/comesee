@@ -1,0 +1,199 @@
+.topbutton {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  width: 300px;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.topbutton > a {
+  text-decoration: none;
+}
+.booking {
+  color: #f1efe9;
+  text-decoration: none;
+  text-align: center;
+  width: 122px;
+}
+.booking:hover {
+  /* button-md/button-md */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20.25px */
+  color: #2f2f2f;
+
+  display: flex;
+  width: 120px;
+  height: 49.66px;
+  padding: 2px 5px 2px 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1efe9;
+  border-radius: 30px;
+}
+.delete {
+  color: #f1efe9;
+  text-decoration: none;
+  text-align: center;
+  width: 122px;
+}
+.delete:hover {
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20.25px */
+  color: #2f2f2f;
+
+  display: flex;
+  width: 120px;
+  height: 49.66px;
+  padding: 2px 2px 2px 2px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1efe9;
+  border-radius: 30px;
+}
+
+/* order */
+
+/* 左邊區塊的樣式、內距設定 */
+.contentdetail {
+  display: flex;
+  flex-direction: column;
+  /* width: 1024px; */
+  gap: 20px;
+  /* margin-left: 10px; */
+  margin-top: 30px;
+}
+
+/* 訂單紀錄bar設定 */
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 50px;
+  /* gap: 10px; */
+  /* width: 950px; */
+  height: 300px;
+  border-radius: 15px;
+  background-color: #a6a79b;
+  color: #f1efe9;
+}
+
+/* 訂單紀錄bar內容設定 */
+.orderdetail {
+  display: flex;
+  flex-direction: row;
+  /* width: 760px; */
+  height: 320px;
+  padding: 50px;
+  align-items: center;
+
+  /* style */
+  border-radius: 20px;
+  background: #2f2f2f;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+
+  /* font */
+  color: #fff;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* 訂單紀錄bar左邊設定 */
+.leftcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f1efe9;
+  margin: 10px;
+}
+
+.recordsec {
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: overlay;
+}
+
+.record {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 450px; */
+  border-bottom: 2px solid var(--primary-mint, #f1efe9);
+}
+
+.ticketstatus {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+  }
+
+.ticket {
+  display: flex;
+  flex-direction: row;
+  /* width: 950px; */
+  padding: 20px;
+  align-items: center;
+  gap: 50px;
+  color: #f1efe9;
+  border-bottom: 1px solid var(--primary-mint, #f1efe9);
+}
+
+.text {
+  flex: 1 0 0;
+}
+
+.number {
+  font-size: 80px;
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+  font-weight: 700;
+}
+.button {
+  display: flex;
+  width: 120px;
+  height: 50px;
+  padding: 15px 20px 16px 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+
+  border-radius: 15px;
+  background: #b6b995;
+  text-decoration: none;
+  color: #f1efe9;
+}
+
+.button2 {
+  width: 120px;
+  height: 50px;
+  padding: 15px 20px 16px 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  text-decoration: none;
+  border-radius: 15px;
+
+  color: var(--primary-default, #2f2f2f);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112.5%; /* 20.25px */
+}
+
+.expire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f1efe9;
+}
